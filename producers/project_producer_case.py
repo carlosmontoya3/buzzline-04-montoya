@@ -97,10 +97,10 @@ def generate_messages():
     """
     Generate a stream of JSON messages.
     """
-    ADJECTIVES = ["amazing", "funny", "boring", "exciting", "weird"]
+    ADJECTIVES = ["incredible", "hilarious", "exhausting", "beautiful", "crazy"]
     ACTIONS = ["found", "saw", "tried", "shared", "loved"]
-    TOPICS = ["a movie", "a meme", "an app", "a trick", "a story", "Python", "JavaScript", "recipe", "travel", "game"]
-    AUTHORS = ["Alice", "Bob", "Charlie", "Eve"]
+    TOPICS = ["a movie", "a house", "a song", "a trick", "a study", "Python", "JavaScript", "food", "car", "game"]
+    AUTHORS = ["Noah", "Landan", "Mason", "Brian", "Lydia", "Jenna"]
     
     while True:
         adjective = random.choice(ADJECTIVES)
